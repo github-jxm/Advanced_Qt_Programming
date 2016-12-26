@@ -1,6 +1,6 @@
-!exists($$QMAKE_LIBDIR_QT/libphonon.prl) {
-    error(Cannot build this example since it needs Phonon support)
-}
+#!exists($$QMAKE_LIBDIR_QT/libphonon.prl) {
+#    error(Cannot build this example since it needs Phonon support)
+#}
 CONFIG	    += console debug
 QT	    += phonon
 HEADERS	    += ../aqp/aqp.hpp
